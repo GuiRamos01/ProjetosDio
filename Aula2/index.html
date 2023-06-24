@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 2 - HTML</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <a href="#"><li><u>Home</u></li></a>
+                <a href="#sobre"><li>Sobre a clínica</li></a>
+                <a href="#horarios"><li>Horário de atendimento</li></a>
+                <a href="#contato"><li>Contato</li></a>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="content">
+                <header align="center">
+                    <img src="./icon-site-clinica.png" alt="">
+                    <hr>
+                </header>
+    
+                <p id="sobre">
+                    Somos uma clínica médica popular que prioriza a prevenção da sua saúde através de diagnósticos de qualidade e médicos experientes com preços justos para todos.
+                    Em nossa clínica, você encontrará equipamentos de alta tecnologia e um atendimento mais humano e atencioso, pois respeitamos os seus direitos e acreditamos que você merece o melhor tratamento, especialmente, quando se trata da sua saúde.
+                </p>
+
+                <h2 id="horarios">Horários de atendimento</h2>
+
+                <table>
+                    <thead>
+                        <th>Serviços</th>
+                        <th>Segunda a sexta</th>
+                        <th>Sábado</th>
+                        <th>Feriados</th>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Clínica geral</td>
+                            <td>08h - 19h</td>
+                            <td>08h - 14h</td>
+                            <td>08h - 14h</td>
+                        </tr>
+                        <tr>
+                            <td>Psicologia</td>
+                            <td>08h - 19h</td>
+                            <td>08h - 14h</td>
+                            <td>08h - 14h</td>
+                        </tr>
+                        <tr>
+                            <td>Pediatria</td>
+                            <td>08h - 19h</td>
+                            <td>08h - 18h</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>Oftamologia</td>
+                            <td>08h - 19h</td>
+                            <td>08h - 18h</td>
+                            <td>-</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div id="endereco" class="endereco">
+                    <div style="gap: 10px;">
+                        <h2>Endereço:</h2>
+                        <span>Av. Ibirapuera, 2927 - <br> Indianópolis, São Paulo/SP</span>
+                        
+                        <br><br>
+
+                        <div>
+                            <b>Telefone: </b>99999-9999 / 
+                            <b>Whatsapp: </b>99999-9999
+                        </div>
+                    </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.881883171431!2d-46.66661!3d-23.6085687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a08c471b4a9%3A0x57b8c5a246d11557!2sAv.%20Ibirapuera%2C%202927%20-%20Indian%C3%B3polis%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004029-200!5e0!3m2!1spt-BR!2sbr!4v1687576402859!5m2!1spt-BR!2sbr" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+            <div id="contato" class="contact">
+                <form action="">
+                    <h1>Fale conosco</h1>
+                    <input type="text" placeholder="Nome">
+                    <input type="email" placeholder="Email">
+                    <input type="text" placeholder="Assunto">
+                    <textarea id="" placeholder="Mensagem" rows="7"></textarea>
+
+                    <div class="buttons">
+                        <button type="submit">Enviar</button>
+                        <button type="reset" class="buttonReset">Limpar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <ul>
+            <a href="#"><li>Sobre a clínica</li></a>
+            <a href="#"><li>Horário de atendimento</li></a>
+            <a href="#"><li>Contato</li></a>
+        </ul>    
+    </footer>
+</body>
+</html>
